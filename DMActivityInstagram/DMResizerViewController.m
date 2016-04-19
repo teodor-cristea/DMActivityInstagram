@@ -62,6 +62,7 @@
     }
     
     self.imageView.image = self.inputImage;
+    self.imageView.backgroundColor = [UIColor whiteColor];
         
     self.scrollView.minimumZoomScale = 1.0;
     self.scrollView.maximumZoomScale = 4;
